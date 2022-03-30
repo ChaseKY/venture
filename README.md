@@ -1,2 +1,2 @@
 # venture
-The app for finding your next adVENTURE
+Add venture to your next adventure.
