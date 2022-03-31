@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { clearFavorites, deleteFavorite } from '.././actions/hikeUserActions';
-import FavoritesContainer from '.././containers/FavoritesContainer';
+
 
 class User extends Component {
 
@@ -32,4 +31,4 @@ class User extends Component {
 }
 
 
-export default connect(null, {clearFavorites, deleteFavorite })(User);
+export default connect (User);

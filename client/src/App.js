@@ -5,11 +5,11 @@ import './styles/App.css';
 import './styles/hikes.css';
 import './styles/user-profile.css';
 import './styles/alerts.css';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 
 //Import Statement for main pages // 
-import Register from './containers/UserRegistration/SignUp';
+import Register from './containers/UserRegistration/Signup.js';
 import Login from './containers/UserRegistration/Login';
 import About from './components/About';
 import User from './components/User';
