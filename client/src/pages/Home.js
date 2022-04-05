@@ -30,18 +30,16 @@ function Home() {
           .then((response) => console.log(response))
           .catch((err) => console.error(err))
           .then((response) => {
-            response.map((response) => {
-              return (
-                <div>
-                  <div className="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <p className="card-text">{response.data.name}</p>
-                    </div>
+            return (
+              <div>
+                <div className="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div className="card-body">
+                    <p className="card-text">{response.data[0].name}</p>
                   </div>
                 </div>
-              );
-            });
+              </div>
+            );
           });
       });
   }
