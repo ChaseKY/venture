@@ -1,5 +1,5 @@
 import './App.css';
-import About from './pages/About';
+import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ function App() {
     if (current === 0) {
       return <Home></Home>;
     } else if (current === 1) {
-      return <About></About>;
+      return <Contact></Contact>;
     } else if (current === 2) {
       return <Profile></Profile>;
     } else if (current === 3) {

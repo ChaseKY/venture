@@ -30,7 +30,7 @@ function Nav(props) {
             </a>
 
             <a className="navbar-item" onClick={() => props.setCurrent(1)}>
-              About
+              Contact
             </a>
 
             <a className="navbar-item" onClick={() => props.setCurrent(2)}>
