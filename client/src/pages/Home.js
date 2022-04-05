@@ -1,5 +1,4 @@
 import React from 'react';
-import Results from '../pages/Results';
 import { useState } from 'react';
 
 function Home() {
@@ -32,7 +31,7 @@ function Home() {
           .then((response) => {
             return (
               <div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 18 + 'rem' }}>
                   <img src="..." class="card-img-top" alt="..." />
                   <div className="card-body">
                     <p className="card-text">{response.data[0].name}</p>
